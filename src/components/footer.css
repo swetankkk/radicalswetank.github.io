@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.Connectbar {
+  background-color: #000000;
+
+  color: white;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Connect {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  flex-grow: 4;
+}
+.Iconsgroup {
+  display: flex;
+
+  flex-grow: 10;
+  flex-direction: row;
+}
