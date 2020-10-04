@@ -16,16 +16,17 @@ function Icon(props) {
                     }}
                     style={{
                         ...style.iconBackground,
-                        ...(hover ? { backgroundColor: props.bC } : style.before),
+                        ...(hover ? { background: props.bC } : style.before),
                     }}
                 >
-                    <a href="href">
+                    <a href={props.url}>
                         <FontAwesomeIcon
                             style={{
                                 ...style.normal,
                                 ...(hover ? style.hover : null),
                             }}
                             icon={props.icon}
+                            size="xs"
                         />
                     </a>
                 </li>
