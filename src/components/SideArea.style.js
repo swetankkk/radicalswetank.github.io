@@ -22,9 +22,8 @@ export default {
     opacity: '0.7',
     marginBottom: '1rem',
   },
-  hoverButtons: {
+  buttons: {
     lineHeight: '1.75rem',
-    
   },
-  "hoverButtons:hover": { opacity: '1',  color: 'red' }
+//  hoverButtons: { opacity: '1',color: 'red' }
 };

@@ -19,7 +19,7 @@ function Icon(props) {
                         ...(hover ? { background: props.bC } : style.before),
                     }}
                 >
-                    <a href={props.url}>
+                    <a href={props.url} onClick={()=> {window.open('#','_blank');window.open(props.url, "_self")}} >
                         <FontAwesomeIcon
                             style={{
                                 ...style.normal,

@@ -1,7 +1,19 @@
 export default {
   mainbar: {
-        backgroundColor: '#111',
+      display: 'flex',
+      backgroundColor: '#111',
+      color: 'white',
       minWidth:'70vw',
-      color: 'rgba(255,255,255,.5)',
-  },
+      alignItems:'center',
+      fontSize:'14px',
+      flexDirection: 'column',
+      paddingTop:'25vh'
+
+    },
+  break: {
+      display:'flex',
+      flexBasis: '10%',
+      width: '100%',
+      height: '0'
+    }
 };  
