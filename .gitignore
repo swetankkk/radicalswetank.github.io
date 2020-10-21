@@ -72,7 +72,7 @@ typings/
 
 # gatsby files
 .cache/
-public
+
 
 # Yarn
 yarn-error.log
