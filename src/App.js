@@ -1,16 +1,17 @@
 import React from 'react';
-import style from './App.style.js';
 import Footer from './components/footer';
 import SideArea from './components/SideArea';
 import MainArea from './components/MainArea';
+import './App.css';
+
 function App() {
   return (
     <div>
-      <div style={style.bars}>
+      <div className="Bars">
         <SideArea />
-      <MainArea/>
+        <MainArea />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }

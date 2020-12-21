@@ -1,0 +1,21 @@
+.IconBackground {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  margin: 0 10px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+  color: #fff;
+}
+
+.Icon {
+  position: relative;
+  color: #fff;
+  transition: 0.5s;
+  z-index: 3;
+}

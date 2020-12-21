@@ -1,27 +1,26 @@
 import React from 'react';
-import style from './SideArea.style.js';
-
+//import style from './SideArea.style.js';
+import './SideArea.css';
 const Area = () => {
-    return (
-      <div style={style.sidebar}>
-        <h1 style={style.head}>SWETANK</h1>
-        <div style={style.subhead}>Web Developer and Fintech Enthusiast</div>
-        <div>
-          <div style={style.buttons}>
-            About
-            <br />
-          </div>
-          <div style={style.buttons}>
-            Skills
-            <br />
-          </div>
-          <div style={style.buttons}>
-            Projects Talks
-            <br />
-          </div>
-          <div style={style.buttons}>Certifications</div>
-        </div>
+  return (
+    <div className="Sidebar">
+      <h1 className="Head">SWETANK</h1>
+      <div className="Subhead">Web Developer and Fintech Enthusiast</div>
+
+      <div className="Hoverbuttons">
+        About
+        <br />
       </div>
-    );
+      <div className="Hoverbuttons">
+        Skills
+        <br />
+      </div>
+      <div className="Hoverbuttons">
+        Projects Talks
+        <br />
+      </div>
+      <div className="Hoverbuttons">Certifications</div>
+    </div>
+  );
 };
 export default Area;

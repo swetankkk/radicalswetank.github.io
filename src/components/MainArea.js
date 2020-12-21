@@ -1,17 +1,17 @@
 import React from 'react';
-import style from './MainArea.style.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
+import './MainArea.css';
 
 const Area = () => {
-    return (
-    <div style={style.mainbar}> 
-    
-        To Be updated
-        <div style={style.break} />
-    Meanwhile feel free to connect 
-    <div style={style.break} />
-    <FontAwesomeIcon size={"5x"} icon={faAngleDoubleDown}/>
-    </div>)
+  return (
+    <div className="Mainbar">
+      To Be updated
+      <div className="Break" />
+      Meanwhile feel free to connect
+      <div className="Break" />
+      <FontAwesomeIcon size={'5x'} icon={faAngleDoubleDown} />
+    </div>
+  );
 };
 export default Area;

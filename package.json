@@ -12,10 +12,9 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "styled-components": "^5.2.0"
+    "react-scripts": "3.4.3"
   },
-  "homepage": "https://radicalswetank.github.io/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
